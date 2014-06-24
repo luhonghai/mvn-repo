@@ -8,21 +8,31 @@
         <artifactId>dirtyparent</artifactId>
         <version>1.0</version>
     </parent>
-    <artifactId>dirtyproxy</artifactId>
+    <artifactId>dirtyselenium</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
-            <groupId>com.simply-tutorial</groupId>
-            <artifactId>dirty-core</artifactId>
+            <groupId>com.simplytutorial</groupId>
+            <artifactId>dirtycore</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.7.3</version>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>[2.35.0,)</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>[2.35.0,)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>[2.35.0,)</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -30,5 +40,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
