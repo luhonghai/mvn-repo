@@ -1,0 +1,3 @@
+siteflowphantomjs com.simplytutorial.dirtyselenium.SiteFlowPhantomJsScenario
+#phantomjs com.simplytutorial.dirtyselenium.PhantomJsScenario
+#default com.simplytutorial.dirtyselenium.DefaultDirtyScenario
